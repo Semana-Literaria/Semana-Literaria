@@ -25,6 +25,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    animation: entradaPadrao 0.8s ease-in;
 }
 
 header {
@@ -51,8 +52,6 @@ section {
     padding: 23px;
     text-align: justify;
     border-radius: 2px;
-
-    animation: entradaPadrao 0.8s ease-in;
 }
 
 section.even {
