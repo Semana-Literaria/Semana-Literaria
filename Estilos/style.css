@@ -143,6 +143,15 @@ footer {
     text-align: center;
 }
 
+.sobrenaine {
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+.sobrenaine:hover {
+    color: rgba(0, 0, 0, 0.699);
+    text-decoration: underline;
+}
+
 @media screen and (max-width:390px) {
     nav a {
         font-size: 10.6pt;
