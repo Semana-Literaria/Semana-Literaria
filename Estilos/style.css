@@ -107,6 +107,7 @@ nav a {
     -webkit-tap-highlight-color: transparent;
     -webkit-focus-ring-color: transparent;
     outline: none;
+    font-size: 9pt;
   }
   
 nav a:focus {
