@@ -39,7 +39,7 @@ h1 {
 section {
     background-color: rgba(255, 255, 255, 0.751);
     margin: 15px;
-    padding: 30px;
+    padding: 20px;
     text-align: justify;
     border-radius: 2px;
     animation: entradaPadrao 0.8s ease-in;
@@ -63,7 +63,7 @@ section.even {
     display: block;
     margin: auto;
     margin-top: 40px;
-    width: 70vw;
+    width: 80vw;
 }
 
 p {
@@ -101,6 +101,8 @@ ul {
 }
 
 li {
+    display: flex;
+    align-items: center;
     cursor: pointer;
     border: 1px solid rgba(0, 0, 0, 0.088);
     text-align: center;
