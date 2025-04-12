@@ -107,8 +107,7 @@ nav a {
     -webkit-tap-highlight-color: transparent;
     -webkit-focus-ring-color: transparent;
     outline: none;
-    font-size: 9pt;
-  }
+}
   
 nav a:focus {
     outline: none;
@@ -142,4 +141,10 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
+}
+
+@media screen and (max-width:390px) {
+    nav a {
+        font-size: 10.6pt;
+    }
 }
