@@ -90,6 +90,7 @@ a.pages {
     color: white;
     text-align: center;
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 ul {
@@ -98,6 +99,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    -webkit-tap-highlight-color: transparent;
 }
 
 li {
@@ -109,6 +111,7 @@ li {
     align-items: center;
     padding: 20px 15px 20px 15px;
     transition-duration: .5s;
+    -webkit-tap-highlight-color: transparent;
 }
 
 li:hover {
