@@ -59,7 +59,7 @@ section.even {
     background-color: rgba(255, 255, 255, 0.751);
 }
 
-.imagem > img {
+.imagem > img{
     display: block;
     margin: auto;
     margin-top: 50px;
@@ -67,10 +67,6 @@ section.even {
     height: 348px;
     width: 232px;
     transition-duration: .5s;
-}
-
-img:hover {
-    padding: 10px;
 }
 
 .imagem > p {
@@ -88,10 +84,9 @@ p {
     margin: auto;
 }
   
-.imagem-originarias > img {
+.imagem-originarias  {
     display: block;
     margin: auto;
-    margin-top: 50px;
     border-radius: 10px;
     height: 325px;
     width: 231.5px;
@@ -139,4 +134,11 @@ li {
 
 li:hover {
     background-color: rgb(0, 41, 0);
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
